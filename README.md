@@ -1,2 +1,2 @@
-# PLNet
-这是一个简单的Python
+# PLNet: A Hybrid-Structured Framework for High-Definition Medical Image Segmentation
+
