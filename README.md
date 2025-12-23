@@ -51,16 +51,16 @@ Although general medical image segmentation models have shown good overall perfo
 └── lable_complete/                     # Mask dataset
 ├── ann_dir/               # Images dataset
   ├── train/             # Train of Label (input)
-    ├── ISIC_0000000.png/               # Case ID = 00000 (input)
-    ├── ISIC_0000001.png/               # Case ID = 00001 (input)
-    ├── ISIC_0000003.png/               # Case ID = 00003 (input)
+    ├── ISIC_0000000.png/               # Case ID = 00000 (ground truth)
+    ├── ISIC_0000001.png/               # Case ID = 00001 (ground truth)
+    ├── ISIC_0000003.png/               # Case ID = 00003 (ground truth)
     ├── ...
-    ├── ISIC_0036346.png/               # Case ID = 36346 (input)
+    ├── ISIC_0036346.png/               # Case ID = 36346 (ground truth)
   ├── val/             # Test of Label (input)
-    ├── ISIC_0000002.png/               # Case ID = 00002 (input)
-    ├── ISIC_0000006.png/               # Case ID = 00006 (input)
+    ├── ISIC_0000002.png/               # Case ID = 00002 (ground truth)
+    ├── ISIC_0000006.png/               # Case ID = 00006 (ground truth)
     ├── ...
-    ├── ISIC_0036347.png/               # Case ID = 36347 (input)
+    ├── ISIC_0036347.png/               # Case ID = 36347 (ground truth)
 ```
 
 ### The other data formats have the same structure
