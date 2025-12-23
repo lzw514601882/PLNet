@@ -36,4 +36,4 @@ Although general medical image segmentation models have shown good overall perfo
 ## Dataset
 
 ## Qualitative Visualization Results
-<div align="center"><img src="Fig/Motive.png" alt="results" style="zoom:60%;" /></div>
+<div align="center"><img src="Fig/compare.png" alt="results" style="zoom:60%;" /></div>
