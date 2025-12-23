@@ -35,5 +35,25 @@ Although general medical image segmentation models have shown good overall perfo
 
 ## Dataset
 
+``` 📂 ISIC2018/
+├── Train/               # Train dataset
+  ├── input_broken/      # Fractured vessel input (input)
+    ├── 1/               # Patients ID = 1 (input)
+      ├── 0.ply          # Fractured case 0
+      ├── 1.ply          # Fractured case 1
+      ├── ...
+      └── 7.ply          # Fractured case 7 (simulate 8 types)
+    ├── 2/
+    ├── ...
+    └── 300/
+  └── lable_complete/    # Fully connected vessel (ground truth)
+    ├── 1.ply            # Patients ID = 1 (ground truth)
+    ├── 2.ply
+    ├── ...
+    └── 300.ply
+├── Test/                # Test dataset
+└── Val/                 # Validation dataset
+```
+
 ## Qualitative Visualization Results
 <div align="center"><img src="Fig/compare.png" alt="results" style="zoom:60%;" /></div>
