@@ -36,24 +36,38 @@ Although general medical image segmentation models have shown good overall perfo
 ## Dataset
 
 ``` 📂 ISIC2018/
-├── Train/               # Train dataset
-  ├── input_broken/      # Fractured vessel input (input)
-    ├── 1/               # Patients ID = 1 (input)
-      ├── 0.ply          # Fractured case 0
-      ├── 1.ply          # Fractured case 1
-      ├── ...
-      └── 7.ply          # Fractured case 7 (simulate 8 types)
-    ├── 2/
+├── img_dir/               # Images dataset
+  ├── train/             # Train of images (input)
+    ├── ISIC_0000000.jpg/               # Case ID = 00000 (input)
+    ├── ISIC_0000001.jpg/               # Case ID = 00001 (input)
+    ├── ISIC_0000003.jpg/               # Case ID = 00003 (input)
     ├── ...
-    └── 300/
-  └── lable_complete/    # Fully connected vessel (ground truth)
-    ├── 1.ply            # Patients ID = 1 (ground truth)
-    ├── 2.ply
+    ├── ISIC_0036346.jpg/               # Case ID = 36346 (input)
+  ├── val/             # Test of images (input)
+    ├── ISIC_0000002.jpg/               # Case ID = 00002 (input)
+    ├── ISIC_0000006.jpg/               # Case ID = 00006 (input)
     ├── ...
-    └── 300.ply
-├── Test/                # Test dataset
-└── Val/                 # Validation dataset
-```
+    ├── ISIC_0036347.jpg/               # Case ID = 36347 (input)
+└── lable_complete/                     # Mask dataset
+├── ann_dir/               # Images dataset
+  ├── train/             # Train of Label (input)
+    ├── ISIC_0000000.png/               # Case ID = 00000 (input)
+    ├── ISIC_0000001.png/               # Case ID = 00001 (input)
+    ├── ISIC_0000003.png/               # Case ID = 00003 (input)
+    ├── ...
+    ├── ISIC_0036346.png/               # Case ID = 36346 (input)
+  ├── val/             # Test of Label (input)
+    ├── ISIC_0000002.png/               # Case ID = 00002 (input)
+    ├── ISIC_0000006.png/               # Case ID = 00006 (input)
+    ├── ...
+    ├── ISIC_0036347.png/               # Case ID = 36347 (input)
+
+### The other data formats have the same structure
 
 ## Qualitative Visualization Results
 <div align="center"><img src="Fig/compare.png" alt="results" style="zoom:60%;" /></div>
+
+## Acknowledgements
+- We thank Medical Image Computing for making the source code of [nnUNet](https://github.com/MIC-DKFZ/nnUNet)/ publicly avaiable.
+- We also thank Bastian Chen for sharing the great article [LEFORMER](https://arxiv.org/abs/2308.04397)
+
