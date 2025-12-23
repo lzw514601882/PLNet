@@ -34,3 +34,6 @@ Although general medical image segmentation models have shown good overall perfo
 | Kvasir-SEG | Endoscopy | Various | 1000 | 700 / 300 (7:3) | Polyp segmentation | Endoscopic dataset with expert-verified pixel-level annotations for colorectal polyps. | https://datasets.simula.no/downloads/kvasir-seg.zip |
 
 ## Dataset
+
+## Qualitative Visualization Results
+<div align="center"><img src="Fig/Motive.png" alt="results" style="zoom:60%;" /></div>
