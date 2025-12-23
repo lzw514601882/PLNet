@@ -70,5 +70,5 @@ Although general medical image segmentation models have shown good overall perfo
 
 ## Acknowledgements
 - We thank Medical Image Computing for making the source code of [nnUNet](https://github.com/MIC-DKFZ/nnUNet)/ publicly avaiable.
-- We also thank Bastian Chen for sharing the great article [LEFORMER](https://arxiv.org/abs/2308.04397)
+- We also thank Bastian Chen for sharing the great article [LEFORMER]([https://arxiv.org/abs/2308.04397](https://arxiv.org/pdf/2308.04397))
 
