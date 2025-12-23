@@ -61,6 +61,7 @@ Although general medical image segmentation models have shown good overall perfo
     ├── ISIC_0000006.png/               # Case ID = 00006 (input)
     ├── ...
     ├── ISIC_0036347.png/               # Case ID = 36347 (input)
+```
 
 ### The other data formats have the same structure
 
